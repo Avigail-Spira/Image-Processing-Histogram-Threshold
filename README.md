@@ -1,7 +1,7 @@
 # Image-Processing-Histogram-Threshold
 
 Introduction:
-I created a program which creates a histogram from an image, picks an appropriate threshold value, and filters the image based on the selected threshold to remove any noise from the image. 
+I created a program which creates a histogram from an image and filters the image based on the given threshold value to remove any background noise from the image. The histogram is an array where i is the pixel value and array[i] is the count of how many pixels in the given image have that pixel value.
 
 The program takes in a greyscale image (as grid of pixel values with a header) and a threshold value as input. 
 
